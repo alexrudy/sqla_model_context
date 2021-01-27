@@ -57,9 +57,9 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up `sqla_model_context` for local development.
+Ready to contribute? Here's how to set up ``sqla_model_context`` for local development.
 
-1. Fork the `sqla_model_context` repo on GitHub.
+1. Fork the ``sqla_model_context`` repo on GitHub.
 2. Clone your fork locally::
 
     $ git clone git@github.com:your_name_here/sqla_model_context.git
@@ -122,4 +122,3 @@ Then run::
 $ bump2version patch # possible: major / minor / patch
 $ git push
 $ git push --tags
-

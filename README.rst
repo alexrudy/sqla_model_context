@@ -22,7 +22,7 @@ Context manager for default relationship values in SQLAlchemy
 * Free software: MIT license
 * Documentation: https://sqla-model-context.readthedocs.io.
 
-This is primarily a way to ensure that common relationships (e.g. user_id on lots of user generated content) are easy 
+This is primarily a way to ensure that common relationships (e.g. user_id on lots of user generated content) are easy
 to set via the SQLAlchemy context. It works well in concert with flask_login, where it allows you to leverage flask_login's
 `current_user` to set a default relationship value. See the examples directory for a small usage example.
 
