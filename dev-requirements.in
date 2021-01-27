@@ -1,13 +1,22 @@
 pip
 pip-tools
+
 bump2version
 wheel
+twine
+
+black
 flake8
 tox
-coverage
-Sphinx
-twine
-Click
+mypy
+sqlalchemy-stubs
 pytest
 pytest-cov
+coverage
+
+Sphinx
 invoke
+
+# Requirements of the final library
+sqlalchemy
+werkzeug
