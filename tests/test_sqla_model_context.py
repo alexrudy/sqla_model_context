@@ -1,14 +1,15 @@
 #!/usr/bin/env python
-
 """Tests for `sqla_model_context` package."""
+import logging
 from typing import NamedTuple
 from typing import Optional
-import logging
 
 import pytest
 
-from sqla_model_context import ModelRelativeContextManager, EnforceMode
-from sqla_model_context.context import MissingRelation, NoActiveRelation
+from sqla_model_context import EnforceMode
+from sqla_model_context import ModelRelativeContextManager
+from sqla_model_context.context import MissingRelation
+from sqla_model_context.context import NoActiveRelation
 
 
 class Model(NamedTuple):

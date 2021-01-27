@@ -1,12 +1,16 @@
 import pytest
+from sqlalchemy import Column
+from sqlalchemy import create_engine
+from sqlalchemy import ForeignKey
+from sqlalchemy import Integer
+from sqlalchemy import String
+from sqlalchemy.event import contains
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import relationship
+from sqlalchemy.orm import sessionmaker
+
 from sqla_model_context import ModelRelativeContextManager
 from sqla_model_context.context import MissingRelation
-
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, String, Integer, ForeignKey
-from sqlalchemy import create_engine
-from sqlalchemy.event import contains
-from sqlalchemy.orm import sessionmaker, relationship
 
 Base = declarative_base()
 

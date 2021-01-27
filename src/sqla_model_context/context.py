@@ -17,7 +17,9 @@ from typing import Union
 from sqlalchemy import event
 from werkzeug.local import LocalProxy
 
-from .exc import NoActiveRelation, MissingRelation, ContextRelationListenerWarning
+from .exc import ContextRelationListenerWarning
+from .exc import MissingRelation
+from .exc import NoActiveRelation
 
 M = TypeVar("M")
 #: The target model
