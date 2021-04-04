@@ -2,7 +2,7 @@
 
 __author__ = """Alex Rudy"""
 __email__ = "opensource@alexrudy.net"
-__version__ = "0.2.1"
+__version__ = "0.2.2"
 
 from .context import ModelRelativeContextManager, EnforceMode
 
