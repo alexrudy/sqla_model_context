@@ -14,6 +14,7 @@ recursive-include src/sqla_model_context/ templates/**/*.html
 recursive-include src/sqla_model_context/ data/*
 recursive-include src/sqla_model_context/ *.py
 recursive-include src/sqla_model_context/ *.cfg
+recursive-include src/sqla_model_context py.typed
 
 recursive-include tests *
 recursive-exclude * __pycache__
