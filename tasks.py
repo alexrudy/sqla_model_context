@@ -77,6 +77,13 @@ def dev_install(c):
 
 
 @task
+def docs(c):
+    """Build docs"""
+    with c.cd("docs"):
+        c.run("make html")
+
+
+@task
 def test(c):
     """run tests"""
     c.run("pytest")

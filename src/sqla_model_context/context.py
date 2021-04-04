@@ -48,7 +48,7 @@ class EnforceMode(enum.Enum):
         """Parse an arguemtn into the enforcement mode enum. Possible values are:
 
         * A boolean, where `True` means `ERROR`, i.e. do enforcement and raise an error,
-        and `False` means do nothing (`NONE`)
+          and `False` means do nothing (`NONE`)
         * A string which corresponds to one of the enumerations.
         * An actual enumeration value
 
